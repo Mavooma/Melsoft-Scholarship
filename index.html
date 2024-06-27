@@ -1,252 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
-    <!-- Custom CSS Link -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Nav Bar -->
-<nav>
-    <div class="container nav-container">
-        <img src="Images/Creative_Color_Brushstroke_Lettering_Logo-removebg-preview.png" alt="Vuyelwa Mavuma Logo" class="logo">
-        <div class="menu-icon" id="menu-icon">
-            &#9776;
-        </div>
-        <ul class="nav-links" id="nav-links">
-            <li><a href="#About">About</a></li>
-            <li><a href="#Experience">Experience</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
-    </div>
-</nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Header Section -->
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Mental Health AI Chatbot</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- JavaScript Links -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">How It Works</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Effectiveness</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./login/login.html">Login/Sign Up</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <!-- Header Section -->
+        <section id="home">
+            <div class="container">
+              <h1>Welcome to Mindcare</h1>
+              <p>Your Path to mental Wellness</p>
+            </div>
+          </section>
+
     <header class="header">
         <div class="container header-container">
             <div class="header-left">
-                <img src="Images/Frontend (2).png" alt="Profile Picture">
+                <img src="Images/Header.png" alt="Profile Picture">
             </div>
             <div class="header-right">
-                <p><b>Hello, I'm</b></p>
-                <h1>Vuyelwa Mavuma</h1>
-                <h2>Frontend Developer</h2>
+                <h1>Empowering Your Mental Health Journey with AI-Powered Support.</h1><br>
+                <h3>Proven to support and uplift, our AI-driven platform gently guides you towards better mental health and well-being.</h3>
                 <div class="header-action-aria">
-                    <a href="#" class="btn btn-center" download="./img/CV.pdf">Download CV</a>
-                    <a href="#Contact" class="btn btn-dark btn-center">Contact info</a>
-                </div>
-                <div class="header-social">
-                    <a href="https://www.linkedin.com/in/vuyelwa-mavuma/"><img src="images/linkedin.png" class="icon1" alt="Linkedin Logo"></a>
-                    <a href="https://www.tiktok.com/@ma_vooma"><img src="images/social-media.png" class="icon1" alt="Tiktok"></a>
-                    <a href="https://github.com/Mavooma"><img src="images/github (2).png" class="icon1" alt="Github Logo"></a>
+                    <a href="#Contact" class="btn btn-dark btn-center">Sign Up</a>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="About">
-        <p class="center-heading heading-p">Get To Know More</p>
-        <h1 class="center-heading heading">About Me</h1>
-        <div class="container about-container">
-            <div class="about-left">
-                <img src="Images/Untitled design (16).png" alt="About Image">
+    <section class="purpose">
+        <div class="container text-center my-5">
+          <div class="row mb-5">
+            <div class="col-lg-6 d-none d-lg-block">
+              <img src="images/purpose.png" class="img-fluid" alt="What's The Purpose" />
             </div>
-            <div class="about-right">
-                <div class="basic-edu">
-                    <div class="edu-box">
-                        <img src="images/Experience.png" class="icon1" alt="Experience Icon">
-                        <h4>Experience</h4>
-                        <p>
-                            Entry Level<br>
-                            Frontend Development
-                        </p>
-                    </div>
-                    <div class="edu-box">
-                        <img src="images/education.png" class="icon1" alt="Education Icon">
-                        <h4>Education</h4>
-                        <p>
-                            SheCodes Foundation<br>
-                            Certification
-                        </p>
-                    </div>
-                </div>
-                <p>
-                    Hello! I'm Vuyelwa, a passionate front-end developer with a keen interest in crafting beautiful and functional web experiences. With a solid foundation in HTML, CSS, and JavaScript, along with a certification from SheCodes, I am enthusiastic about creating user-friendly interfaces that leave a lasting impression.
+            <div class="col-lg-6">
+              <div class="project-description">
+                <h2 class="mb-5">What's The Purpose</h2>
+                <p class="mb-5 text-muted">
+                    In an increasingly digital world, the Mental Health AI Chatbot web
+                    application serves as a crucial resource for those seeking mental
+                    health support. This innovative platform provides accessible,
+                    affordable, and immediate assistance to individuals who may face
+                    barriers to traditional mental health services, such as stigma,
+                    cost, or geographic limitations. By leveraging the power of AI, the
+                    chatbot offers personalized interactions that can help users manage
+                    their mental health through real-time assessments, therapeutic
+                    conversations, and progress tracking. The application’s clinical
+                    validation and evidence-based approach ensure that users receive
+                    reliable and effective support, which can lead to significant
+                    symptom reduction and improved mental well-being. As a most engaging
+                    digital health solution, this webapp empowers users to take control
+                    of their mental health journey with confidence and ease, ultimately
+                    contributing to a more inclusive and supportive mental health care
+                    landscape. 
                 </p>
+              </div>
             </div>
-        </div>
-    </section>
+          </div>
 
-    <!-- Experience Section -->
-    <section id="Experience" class="section">
-        <a href="#Experience" class="arrow"><img src="images/arrow.png" class="icon1" alt="Arrow Icon"></a>
-        <p class="center-heading heading-p">Explore My</p>
-        <h1 class="center-heading heading">Experience</h1>
-        <div class="container experience-container">
-            <div class="experience-box">
-                <h2>Frontend Development</h2>
-                <div class="experience">
-                    <div class="ex-div">
-                        <img src="images/html.png" class="icon1" alt="HTML Icon">
-                        <div>
-                            <h4>HTML</h4>
-                            <p>Proficient</p>
-                        </div>
-                    </div>
-                    <div class="ex-div">
-                        <img src="images/social.png" class="icon1" alt="CSS Icon">
-                        <div>
-                            <h4>CSS</h4>
-                            <p>Proficient</p>
-                        </div>
-                    </div>
-                    <div class="ex-div">
-                        <img src="Images/java-script.png" class="icon1" alt="JavaScript Icon">
-                        <div>
-                            <h4>JavaScript</h4>
-                            <p>Familiar</p>
-                        </div>
-                    </div>
+      <div class="row mb-5">
+        <div class="col-lg-6">
+          <div class="project-description">
+            <h2 class="mb-5">The Engagement of The AI</h2>
+            <p class="mb-5 text-muted">
+                The AI chatbot within the Mental Health web application is designed to be a highly engaging and interactive tool that fosters continuous user involvement and support. Its conversational interface mimics real human interactions, providing a safe and approachable environment for users to discuss their mental health concerns openly. By offering personalized responses and adaptive dialogues, the chatbot can cater to the unique needs of each user, keeping them engaged with tailored advice, coping strategies, and real-time feedback. Additionally, the chatbot’s ability to remember past interactions and provide contextually relevant follow-ups enhances the user experience, making each conversation meaningful and supportive. With features like instant responses, 24/7 availability, and a user-friendly interface, the AI chatbot ensures that users remain actively engaged, motivated, and connected to their mental health care journey, fostering a more sustained and impactful engagement in their well-being.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <img src="images/AI.png" class="img-fluid" alt="The Engagement of The AI" />
+        </div>
+      </div>
+
+      <section id="reviews">
+        <div class="container">
+          <h2>Reviews from Clients</h2>
+          <p>
+            "The Mental Health AI Chatbot has been a game-changer for me. I've
+            struggled with anxiety for years, and having a tool that I can turn
+            to anytime, day or night, has been incredibly helpful. The chatbot
+            provides personalized advice and really listens to my concerns,
+            making me feel understood and supported. I’ve noticed a significant
+            reduction in my symptoms since I started using it. It’s like having
+            a therapist in my pocket!" — Sarah M.
+          </p>
+        </div>
+      </section>
+
+      <section id="reviews">
+        <div class="container">
+          <h2>Reviews from Clients</h2>
+          <p>
+            "As someone who was hesitant to seek traditional therapy due to
+            stigma and cost, the Mental Health AI Chatbot has been a lifesaver.
+            The privacy and convenience it offers are unmatched. I love how it
+            tracks my progress and provides insights that help me understand my
+            mental health better. The conversations feel so natural, and it
+            always has the right advice or words of encouragement. I highly
+            recommend it to anyone looking for mental health support!" — David
+            L.
+          </p>
+        </div>
+      </section>
+
+      <section id="reviews">
+        <div class="container">
+          <h2>Reviews from Clients</h2>
+          <p>
+            "I was skeptical about using an AI for mental health at first, but
+            the chatbot completely changed my perspective. It’s incredibly
+            engaging and empathetic, offering practical tips and exercises that
+            have helped me manage my stress more effectively. The fact that it’s
+            available 24/7 is a huge plus, especially during late-night anxiety
+            episodes when I need someone to talk to. It’s comforting to know
+            that support is just a chat away. This app has been a fantastic
+            addition to my mental wellness routine." — Emily R.
+          </p>
+        </div>
+      </section>
+
+      <section id="organization-partnership">
+        <div class="container">
+            <h2>Organizations Partnered With Us</h2>
+            <p>Our commitment to mental health is strengthened through partnerships with these respected organizations, who share our vision for a healthier, more supportive world.</p>
+            <div class="partners-grid">
+                <div class="partner">
+                    <img src="images/Barclays-PLC.png" alt="Organization 1 Logo">
+                    <p>Committed to mental health awareness and support.</p>
+                </div>
+                <div class="partner">
+                    <img src="images/BetterHelp_Logo.jpg" alt="Organization 2 Logo">
+                    <p>Leading provider of mental health resources and advocacy.</p>
+                </div>
+                <div class="partner">
+                    <img src="images/ImgOne.jpg" alt="Organization 3 Logo">
+                    <p>Dedicated to improving mental wellness through innovative solutions.</p>
+                </div>
+                <div class="partner">
+                    <img src="images/Talkspace_Logo.jpg" alt="Organization 4 Logo">
+                    <p>Supporting mental health initiatives and community outreach.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Reviews Section -->
-    <section class="container">
-        <div class="card__container swiper">
-           <div class="card__content">
-              <div class="swiper-wrapper">
-                 <article class="card__article swiper-slide">
-                    <div class="card__image">
-                       <img src="assets/img/avatar-1.png" alt="image" class="card__img">
-                       <div class="card__shadow"></div>
-                    </div>
-     
-                    <div class="card__data">
-                       <h3 class="card__name">Kell Dawx</h3>
-                       <p class="card__description">
-                          Passionate about development and design, 
-                          I carry out projects at the request of users.
-                       </p>
-     
-                       <a href="#" class="card__button">View More</a>
-                    </div>
-                 </article>
-     
-                 <article class="card__article swiper-slide">
-                    <div class="card__image">
-                       <img src="assets/img/avatar-2.png" alt="image" class="card__img">
-                       <div class="card__shadow"></div>
-                    </div>
-     
-                    <div class="card__data">
-                       <h3 class="card__name">Lotw Fox</h3>
-                       <p class="card__description">
-                          Passionate about development and design, 
-                          I carry out projects at the request of users.
-                       </p>
-     
-                       <a href="#" class="card__button">View More</a>
-                    </div>
-                 </article>
-     
-                 <article class="card__article swiper-slide">
-                    <div class="card__image">
-                       <img src="assets/img/avatar-3.png" alt="image" class="card__img">
-                       <div class="card__shadow"></div>
-                    </div>
-     
-                    <div class="card__data">
-                       <h3 class="card__name">Sara Mit</h3>
-                       <p class="card__description">
-                          Passionate about development and design, 
-                          I carry out projects at the request of users.
-                       </p>
-     
-                       <a href="#" class="card__button">View More</a>
-                    </div>
-                 </article>
-     
-                 <article class="card__article swiper-slide">
-                    <div class="card__image">
-                       <img src="assets/img/avatar-4.png" alt="image" class="card__img">
-                       <div class="card__shadow"></div>
-                    </div>
-     
-                    <div class="card__data">
-                       <h3 class="card__name">Jenny Wert</h3>
-                       <p class="card__description">
-                          Passionate about development and design, 
-                          I carry out projects at the request of users.
-                       </p>
-     
-                       <a href="#" class="card__button">View More</a>
-                    </div>
-                 </article>
-
-                 <article class="card__article swiper-slide">
-                    <div class="card__image">
-                       <img src="assets/img/avatar-5.png" alt="image" class="card__img">
-                       <div class="card__shadow"></div>
-                    </div>
-     
-                    <div class="card__data">
-                       <h3 class="card__name">Lexa Kin</h3>
-                       <p class="card__description">
-                          Passionate about development and design, 
-                          I carry out projects at the request of users.
-                       </p>
-     
-                       <a href="#" class="card__button">View More</a>
-                    </div>
-                 </article>
-              </div>
-           </div>
-
-           <!-- Navigation buttons -->
-           <div class="swiper-button-next">
-              <i class="ri-arrow-right-s-line"></i>
-           </div>
-           
-           <div class="swiper-button-prev">
-              <i class="ri-arrow-left-s-line"></i>
-           </div>
-
-           <!-- Pagination -->
-           <div class="swiper-pagination"></div>
+    <footer>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#effectiveness">Effectiveness</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    
+            <div class="footer-info">
+                <div class="address">
+                    <h3>Our Address</h3>
+                    <p>123 Wellness Street, Suite 456<br>MindCity, MH 78901</p>
+                </div>
+    
+                <div class="socials">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                        <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                        <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                        <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                    </ul>
+                </div>
+    
+                <div class="contact">
+                    <h3>Contact Us</h3>
+                    <p>Email: <a href="mailto:support@mindcare.com">support@mindcare.com</a></p>
+                    <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                </div>
+            </div>
+    
+            <p>&copy; 2024 Your Mindcare || All Rights Reserved.</p>
         </div>
-     </section>
-     
+    </footer>
+    
+    </main>
+
      <!--=============== SWIPER JS ===============-->
      <script src="assets/js/swiper-bundle.min.js"></script>
 
-    <!-- Contact Section -->
-    <section id="Contact" class="contact-me">
-        <h2>Contact Me</h2>
-        <form action="#" method="post">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <ul class="nav-links">
-            <li><a href="#About">About</a></li>
-            <li><a href="#Experience">Experience</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
-        <p>&copy; Copyright Your Mindcare || All Rights Reserved.</p>
-    </footer>
-
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
